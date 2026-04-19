@@ -67,8 +67,6 @@ public class WishlistController {
         return "redirect:/";
     }
 
-    // --- NYE METODER TILFØJET HERUNDER --- //
-
     @GetMapping("/create-wishlist")
     public String showCreateWishlist(HttpSession session) {
         // Tjek om brugeren er logget ind

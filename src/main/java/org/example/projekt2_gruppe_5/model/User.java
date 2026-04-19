@@ -6,7 +6,6 @@ public class User {
     private String password;
     private String email;
 
-    // Konstruktører, getters og setters
     public User() {}
     public User(int userId, String username, String password, String email) {
         this.userId = userId;
