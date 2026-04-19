@@ -1,0 +1,6 @@
+ssh -i onskeSkyVMKey.pem azureuser@20.199.138.56
+    giver adgang til Virtual Machine Azure
+
+sudo docker exec -it mysqlcontainer mysql -u root -p
+    tilgår MySQL i docker
+
