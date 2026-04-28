@@ -21,6 +21,7 @@ public class Wish {
     public String getUrl() { return url; }
     public void setUrl(String url) { this.url = url; }
     public double getPrice() { return price; }
+    søren har ødelagt koden
     public void setPrice(double price) { this.price = price; }
     public boolean isReserved() { return isReserved; }
     public void setReserved(boolean reserved) { isReserved = reserved; }
